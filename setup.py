@@ -25,7 +25,7 @@ from torch.utils.cpp_extension import (
 )
 
 
-with open("flash-attention.README.md", "r", encoding="utf-8") as fh:
+with open("flash-attention/README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 
